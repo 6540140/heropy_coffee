@@ -257,3 +257,17 @@ footer .copyright {
 footer .logo {
   margin: 30px auto 0;
 }
+
+.btn.btn--primary {
+  color: #fff;
+  background-color: #EA9926;
+  border: none;
+}
+
+.btn.btn--primary:hover {
+  background-color: #cc8823;
+}
+
+.btn.block {
+  width: 100%;
+}
