@@ -109,13 +109,6 @@ new Swiper('.awards .swiper', {
   slidesPerView: 5
 })
 
-const thisYear = document.querySelector('.this-year');
-thisYear.textContent = new Date().getFullYear();
-
-
-const badgeEl = document.querySelector('header .badges');
-const toTopEl = document.querySelector('#to-top');
-
 window.addEventListener('scroll', function() {
   console.log(window)
 })
